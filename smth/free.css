@@ -1,0 +1,21 @@
+button{
+    width: 200px;
+    height: 50px;
+    margin-left: 545px;
+    padding: center;
+}
+#increment-btn{
+    color: white;
+    background-color: green;
+}
+#decrement-btn{
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+}
+#people{
+    margin-left: 560px;
+}
+#count-el{
+    margin-left: 630px;
+}

@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding: 1px;
+    background-color: black;
+}
+.marque{
+    margin-top: 30%;
+    font-size: 40px;
+    font-weight: 900;
+}
+marquee{
+    animation: mymove infinite;
+    animation-duration: 5s;
+    position: relative;
+    color: azure;
+}
+@keyframes mymove{
+    0% {color:red;}
+    25% {color:blue;}
+    75% {color:black;}
+    100% {color: yellow;}
+    
+}
+.div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    font-weight: bold;
+    margin-left: 50%;
+    display: flex;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+.portfolio{
+    position: absolute;
+    margin-right: 10%;
+    display: flex;
+}
+li{
+    margin-left: 30px;
+    display: inline-block;
+}
+a:hover{
+    color: blue;
+}
+h1{
+    color:black;
+    margin-left: 3%;
+    margin-top: 90px;  
+}
+p{
+    color: black;
+    margin: 30px;
+    display: flex;
+    text-align: justify;
+}
+
+.title{
+    background-color: orange;
+    width: 400px;
+    height: 300px;
+    padding-bottom: 70px;
+    margin-left: 64%;
+    position: absolute;
+    margin-top: 100px;
+}
+button{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+button:hover{
+    background-color: red;
+    transform: scale(1.2);
+}
+.href{
+    color: black;
+}
+.class{
+    background-color: lightseagreen;
+    width: 1240px;
+    height: 500px;
+    margin-left: 60px ;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+}
+.bag{
+    padding: 0 450px 0 380px;
+    text-align: justify;
+    margin-top: 100px;
+    position: absolute;
+    
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 15px;
+}
+span{
+    color: blue;
+}
+h2{
+    text-align: center;
+    margin-left: 45%;
+}
+.zeka{
+    background-color: orange;
+    width: 400px;
+    height: 300px;
+    padding-bottom: 70px;
+    margin-left: -40px;
+    position: absolute;
+    margin-top: 100px;
+}

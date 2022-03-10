@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.mind{
+    background-color: #fff;
+    background-image: url(https://i.pinimg.com/564x/58/03/df/5803dff920ab956efc8c5ee24db4eeaf.jpg);
+    background-repeat: no-repeat;
+    background-position: 730px 32px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    margin: 20px 20px;
+}
+.tnt{
+    box-shadow: 5px 5px 5px 5px;
+    background-color: orange;
+}
+ul{
+    display: flex;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 20px;
+    opacity: 0.5;
+    color: black;
+    display: flex;
+}
+.tt{
+    position: absolute;
+    margin-top: 60px;
+    height: 500px;
+    margin-left: 10px;
+}
+.ttt{
+    width: 214px;
+    margin-top: 33px;
+    margin-left: 15px;
+}
+li:hover{
+    color: red;
+    transform: scale(1.1);
+}
+h1{
+    font-weight: 900;
+}
+h3{
+    opacity: 0.5;
+}
+.class{
+    margin-left: 110px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 5px 5px;
+    width: 500px;
+    padding: 9px 0 9px 30px;
+    background-color: aquamarine;
+    animation: example infinite;
+    animation-duration: 5s;
+}
+@keyframes example{
+    0%{background-color: orange;}
+    25%{background-color: yellow;}
+    50%{background-color: crimson;}
+    75%{background-color: cornflowerblue;}
+    100%{background-color: darkgrey;}
+}
+button{
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    padding: 15px;
+    width: 200px;
+    color: #fff;
+    margin-left: 110px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+button:hover{
+   background-color: aqua;
+}
+.hr1{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.web{
+    color: blue;
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.p1{
+    margin-left: 110px;
+    margin-top: 7px;
+    opacity: 0.5;
+}
+.div{
+    display: flex;
+}
+.hr2{
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.digital{
+    color: red;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.p2{
+    opacity: 0.5;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.hr3{
+    width: 80%;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.site{
+    color: green;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.p3{
+    opacity: 0.5;
+    margin-top: 7px;
+    margin-left: 40px;
+}
